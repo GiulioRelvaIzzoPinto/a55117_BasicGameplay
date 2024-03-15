@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.WSA;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //Launcher meat projectile!
+        }
         if (transform.position.x < /*-10*/ - xRange)
         {
             transform.position = new Vector3 (/*-10*/ - xRange, transform.position.y, transform.position.z);
