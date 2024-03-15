@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //Launcher meat projectile!
+            Instantiate (projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
         if (transform.position.x < /*-10*/ - xRange)
         {
