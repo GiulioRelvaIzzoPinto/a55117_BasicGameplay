@@ -25,3 +25,4 @@ public class PlayerController : MonoBehaviour
             transform.Translate (Vector3.right * horizontalInput * Time.deltaTime * speed);
     }
 }
+/*Code is working!*/
