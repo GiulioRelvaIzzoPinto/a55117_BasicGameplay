@@ -26,6 +26,7 @@ public class DestroyOutOfBounds : MonoBehaviour
         }
 
         //it's working!
+        // commit "(2.4)2." is also useless since it repeats the same code we already did for random animal spawn!
         
     }
 }
