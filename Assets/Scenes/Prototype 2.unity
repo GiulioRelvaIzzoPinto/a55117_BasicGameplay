@@ -717,10 +717,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2412556084944949937, guid: d7eb550a12d13804b860d56f1cd240ca, type: 3}
-      propertyPath: speed
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7eb550a12d13804b860d56f1cd240ca, type: 3}
 --- !u!1001 &6035668264698651978
@@ -835,10 +831,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Cow_Brown
       objectReference: {fileID: 0}
-    - target: {fileID: 6846193666617711019, guid: 6def27a5b4ae1d94aa3060d0cb032733, type: 3}
-      propertyPath: speed
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6def27a5b4ae1d94aa3060d0cb032733, type: 3}
 --- !u!1001 &7834587901700715146
@@ -895,10 +887,6 @@ PrefabInstance:
     - target: {fileID: 7834587900253882323, guid: 928ad8439d1bf92418d041624ba43866, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7834587900764639264, guid: 928ad8439d1bf92418d041624ba43866, type: 3}
-      propertyPath: speed
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 928ad8439d1bf92418d041624ba43866, type: 3}
